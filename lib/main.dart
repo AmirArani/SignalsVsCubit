@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => MainCubit(),
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Signals and Cubit',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
