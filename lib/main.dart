@@ -64,7 +64,8 @@ class HomePage extends StatelessWidget {
                 ],
               );
             },
-          ),
+          ), //Cubit Section
+
           const SizedBox(height: 48),
 
           Center(
@@ -87,7 +88,7 @@ class HomePage extends StatelessWidget {
                 )
               ],
             ),
-          ),
+          ), //Signals Section
         ],
       ),
     );
